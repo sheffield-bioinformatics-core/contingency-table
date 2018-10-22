@@ -6,10 +6,9 @@ fluidPage(
     title = tags$div(
       "Contingency table tests",
       tags$a(
-        href="http://www.cruk.cam.ac.uk", target = "_blank",
+        href="http://sbc.shef.ac.uk", target = "_blank",
         tags$div(style = "float:right",
-                 tags$img(style = "width:250px", src="cruk-cambridge-institute.jpg"),
-                 tags$img(style = "width:150px; padding:1px; margin-left:5px; margin-bottom:15px; background-color:#666666", src="university-of-cambridge.png")
+                 tags$img(style = "width:250px", src="logo-sm.png")
         )
       )
     ),
@@ -23,10 +22,10 @@ fluidPage(
     "to accompany a training course.",
     br(),
     "Lecture notes and practical exercises that use this app can be found on the course",
-    a("website.", href = "http://bioinformatics-core-shared-training.github.io/IntroductionToStats", target = "_blank"),
+    a("website.", href = "http://sheffield-bioinformatics-core.github.io/IntroductionToStats", target = "_blank"),
     br(),
     "The source code for the app is available",
-    a("here.", href = "https://github.com/bioinformatics-core-shared-training/contingency-table", target = "_blank")
+    a("here.", href = "https://github.com/sheffield-bioinformatics-core/contingency-table", target = "_blank")
   ),
   tags$div(style="line-height:100%;", br()),
 
